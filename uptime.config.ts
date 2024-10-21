@@ -1,6 +1,6 @@
 const pageConfig = {
   // Title for your status page
-  title: "lyc8503's Status Page",
+  title: "Status Monitor | BitLab",
   // Links shown at the header of your status page, could set `highlight` to `true`
   links: [
     { link: 'https://bitlab.lk/', label: 'BitLab' },
@@ -27,7 +27,7 @@ const workerConfig = {
       timeout: 10000,
     },
     {
-      id: 'bitlab_main_web',
+      id: 'bitlab_main_web2',
       name: 'BitLab | Website',
       method: 'POST',
       target: 'https://bitlab.lk',
@@ -36,7 +36,7 @@ const workerConfig = {
       timeout: 10000,
     },
     {
-      id: 'bitlab_main_web',
+      id: 'bitlab_main_web3',
       name: 'BitLab | Website',
       method: 'POST',
       target: 'https://bitlab.lk',
